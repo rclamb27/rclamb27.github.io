@@ -37,6 +37,7 @@ ol, ul {
 	list-style: none;
 }
 
+
 blockquote, q {
 	quotes: none;
 }
@@ -2623,6 +2624,10 @@ input, select, textarea {
 			margin: 2.5rem 0;
 			width: 100%;
 		}
+		
+		.image.fit:hover img{
+			transform:scale(1)
+		}
 
 			.image.fit:first-child {
 				margin-top: 0;
@@ -2637,7 +2642,9 @@ input, select, textarea {
 			margin: 4rem 0;
 			width: 100%;
 		}
-
+		.image.main:hover img{
+			transform:scale(1)
+		}
 			.image.main:first-child {
 				margin-top: 0;
 			}
