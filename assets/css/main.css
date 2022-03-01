@@ -2642,6 +2642,24 @@ input, select, textarea {
 			margin: 4rem 0;
 			width: 100%;
 		}
+
+		.image.profile {
+			display: block;
+			margin-left: auto;
+ 			margin-right: auto;
+  			width: 50%;
+		}
+		.image.profile:hover img{
+			transform:scale(1)
+		}
+			.image.profile:first-child {
+				margin-top: 0;
+			}
+
+			.image.profile img {
+				width: 100%;
+			}
+	
 		.image.main:hover img{
 			transform:scale(1)
 		}
